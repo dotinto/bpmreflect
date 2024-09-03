@@ -1,0 +1,54 @@
+@font-face {
+    font-family: BreeCYRvarRegular;
+    src: url(BreeCYRvarRegular.ttf);
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(83,4,4);
+    background: radial-gradient(circle, rgba(83,4,4,1) 0%, rgba(0,0,0,1) 100%);
+    overflow: hidden;
+}
+.content {
+    width: 100vw;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img.hand {
+    width: 15vw;
+    height: 15vw;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.inputfield {
+    width: 50%;
+    margin: auto;
+}
+.inputfield input {
+    width: 8vw;
+    background: transparent;
+    border: none;
+    text-align: right;
+    margin-left: -3vw;
+    border-bottom: 2px solid white;
+}
+.inputfield span {
+    margin-left: 1vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+* {
+    font-family: BreeCYRvarRegular;
+    color: white;
+    font-size: 24pt;
+}
