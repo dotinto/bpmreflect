@@ -57,6 +57,7 @@ input::-webkit-inner-spin-button {
     font-family: BreeCYRvarRegular;
     color: white;
     font-size: 24pt;
+    user-select: none;
 }
 .downbar {
     position: absolute;
@@ -77,4 +78,11 @@ input::-webkit-inner-spin-button {
 }
 input:disabled {
     border: none;
+}
+.overlay {
+    position: absolute;
+    width: 70vw;
+    height: 100vh;
+    right: 0;
+    z-index: 100;
 }
