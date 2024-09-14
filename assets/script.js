@@ -19,6 +19,7 @@ function BPMReflect() {
             clearInterval(interval);
         }
         interval = setInterval(scaleHand, 30000 / parseInt(bpm.value, 10));
+        document.getElementById("bpmvalue").value = bpm.value;
         scaleHand();
     }
 

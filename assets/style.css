@@ -38,6 +38,12 @@ img.hand {
     text-align: right;
     margin-left: -3vw;
     border-bottom: 2px solid white;
+    color: white !important;
+}
+.inputfield input:focus-visible {
+    border-bottom: 2px solid rgb(146, 146, 146);
+    color: rgb(146, 146, 146) !important;
+    outline: none;
 }
 .inputfield span {
     margin-left: 1vw;
@@ -51,4 +57,24 @@ input::-webkit-inner-spin-button {
     font-family: BreeCYRvarRegular;
     color: white;
     font-size: 24pt;
+}
+.downbar {
+    position: absolute;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.downbar input {
+    width: 8vw;
+    background: transparent;
+    border: none;
+    text-align: right;
+    margin-left: -3vw;
+    border-bottom: 2px solid white;
+}
+.downbar span {
+    margin-left: 1vw;
+}
+input:disabled {
+    border: none;
 }
